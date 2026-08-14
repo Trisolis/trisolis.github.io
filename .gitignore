@@ -1,0 +1,7 @@
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Jekyll stuff
+/_site/
+/.jekyll-cache/
