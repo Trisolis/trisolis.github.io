@@ -29,65 +29,96 @@ title: Home
     <div class="col">
         <div class="card h-100">
             <!-- Add image of each project here-->
+            <img src="{{ '/assets/images/beatles.png' | relative_url }}" class="card-img-top" alt="Beatles Analysis">
             <div class="card-body">
                 <!-- Add card titles and text here-->
+                <h5 class="card-title">Beatles Discography Analysis</h5>
+                <p class="card-text">Data analysis of the Beatles catalog examining the apparent shift in quality post-Rubber Soul.</p>
                 <!-- Also try to add badges for relevant concepts/languages-->
+                <div class="d-flex gap-1 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Pandas</span>
+                    <span class="badge bg-secondary">Matplotlib</span>
+                </div>
                 <!-- Link to project on GitHub-->
+                <a href="https://github.com/Trisolis/Beatles-Analysis" class="btn btn-sm btn-dark" target="_blank">View Project</a>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card h-100">
             <!-- Add image of each project here-->
+            <img src="{{ '/assets/images/flask.png' | relative_url }}" class="card-img-top" alt="Flask App">
             <div class="card-body">
                 <!-- Add card titles and text here-->
+                <h5 class="card-title">World Data Explorer</h5>
+                <p class="card-text">Flask web app for exploring global economic and development indicators across 240 countries.</p>
                 <!-- Also try to add badges for relevant concepts/languages-->
+                <div class="d-flex gap-1 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Flask</span>
+                    <span class="badge bg-secondary">SQLite</span>
+                </div>
                 <!-- Link to project on GitHub-->
+                 <a href="https://github.com/Trisolis/World-Data-App" class="btn btn-sm btn-dark" target="_blank">View Project</a>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card h-100">
             <!-- Add image of each project here-->
+            <img src="{{ '/assets/images/weather.png' | relative_url }}" class="card-img-top" alt="Weather API">
             <div class="card-body">
                 <!-- Add card titles and text here-->
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">CLI weather application using OpenWeatherData API with current conditions, forecasts, and air quality data.</p>
                 <!-- Also try to add badges for relevant concepts/languages-->
+                <div class="d-flex gap-1 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">REST APIs</span>
+                </div>
                 <!-- Link to project on GitHub-->
+                <a href="https://github.com/Trisolis/Weather-Dashboard" class="btn btn-sm btn-dark" target="_blank">View Project</a>
             </div>
         </div>
     </div>
 </div>
 
+<div class="text-center mt-4">
+    <a href="{{ '/projects.html' | relative_url }}" class="btn btn-outline-dark">View All Projects →</a>
+</div>
+
 <hr class="my-5">
 
 <!-- Skills -->
+
 <h2 class="mb-4">Skills</h2>
 <div class="row">
-    <div class="col">
+    <div class="col skills-column">
         <h5>Languages</h5>
         <ul class="list-unstyled">
-            <li>Python</li>
-            <li>SQL</li>
-            <li>JavaScript</li>
-            <li>HTML / CSS</li>
+            <li><i class="bi bi-code-slash me-2"></i>Python</li>
+            <li><i class="bi bi-code-slash me-2"></i>SQL</li>
+            <li><i class="bi bi-code-slash me-2"></i>JavaScript</li>
+            <li><i class="bi bi-code-slash me-2"></i>HTML / CSS</li>
         </ul>
     </div>
-    <div class="col">
+    <div class="col skills-column">
         <h5>Frameworks & Tools</h5>
         <ul class="list-unstyled">
-            <li>Flask</li>
-            <li>Pandas / Matplotlib</li>
-            <li>Bootstrap</li>
-            <li>Git / GitHub</li>
+            <li><i class="bi bi-code-slash me-2"></i>Flask</li>
+            <li><i class="bi bi-code-slash me-2"></i>Pandas / Matplotlib</li>
+            <li><i class="bi bi-code-slash me-2"></i>Bootstrap</li>
+            <li><i class="bi bi-code-slash me-2"></i>Git / GitHub</li>
         </ul>
     </div>
-    <div class="col">
+    <div class="col skills-column">
         <h5>Concepts</h5>
         <ul class="list-unstyled">
-            <li>Data Analysis</li>
-            <li>REST APIs</li>
-            <li>Database Design</li>
-            <li>Web Development</li>
+            <li><i class="bi bi-code-slash me-2"></i>Data Analysis</li>
+            <li><i class="bi bi-code-slash me-2"></i>REST APIs</li>
+            <li><i class="bi bi-code-slash me-2"></i>Database Design</li>
+            <li><i class="bi bi-code-slash me-2"></i>Web Development</li>
         </ul>
     </div>
 </div>
@@ -96,3 +127,16 @@ title: Home
 
 <!-- Personal -->
 <h2 class="mb-4">Outside the Code</h2>
+<div class="personal-section">
+    <p>Outside of programming, most of my time goes towards music, reading, and film, though rarely all three at once.</p>
+
+    <p>Music is probably the biggest one. I've been playing piano for years, and have been deep into learning Chopin pieces lately, though I'll play anything. I'm also learning guitar, which has been a very different, but rewarding experience. </p>
+
+    <p>As you might be able to tell from the Beatles analysis, they're probably my favorite artist of all time. There are some strong contenders though, including Radiohead, Stevie Wonder, Tyler, the Creator, and whatever I've been listening to that week.</p>
+
+    <p>I read whenever I can. I just finished Moby Dick, which was more thrilling than I expected, and I'm currently working through Cormac McCarthy's 'The Road'. I also try to watch a film most days, recent favorites include: Fantastic Mr. Fox, City of God, Dead Poets Society, and The Secret in Their Eyes.</p>
+
+    <p>I also play chess fairly regularly, and sit around 1200 on Chess.com. I grew up playing with my father, and once got to watch Magnus Carlsen play a simul exhibition at my school, which was very exciting for elementary-age me.</p>
+
+    <p>I have two cats and a dog at home, all of whom I've had since I was a kid, and I love them very much. </p>
+</div>

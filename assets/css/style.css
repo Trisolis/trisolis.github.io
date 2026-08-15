@@ -8,3 +8,18 @@ body {
 main {
     flex-grow: 1;
 }
+
+.skills-column {
+    border-left: 3px solid #212529;
+    padding-left: 1rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.personal-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
