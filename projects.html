@@ -1,9 +1,194 @@
 ---
 layout: default
 title: Projects
---- 
+---
 
-<body>
-    <h1>Placeholder</h1>
-    <p>Hello, world!</p>
-</body>
+<h1 class="mb-2">Projects</h1>
+<p class="text-muted mb-5">These are the projects I built while learning to code properly. They're small, intentional, and each one taught me something specific.</p>
+
+<div class="row g-4">
+
+    <!-- Beatles Analysis -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <img src="{{ '/assets/images/beatles.png' | relative_url }}" 
+                 class="project-card-img card-img-top" alt="Beatles Analysis">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Beatles Discography Analysis</h5>
+                <p class="card-text">Data analysis of the Beatles catalog examining the apparent shift in quality post-Rubber Soul.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Pandas</span>
+                    <span class="badge bg-secondary">Matplotlib</span>
+                    <span class="badge bg-secondary">Seaborn</span>
+                    <span class="badge bg-secondary">SciPy</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>Learned how to structure an analysis around a central hypothesis rather than just plotting things</li>
+                    <li>Used t-tests to evaluate statistical significance of a perceived quality shift</li>
+                    <li>Built intuition for when a visual trend is and isn't meaningful</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/Beatles-Analysis" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- World Data Flask App -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <img src="{{ '/assets/images/flask.png' | relative_url }}" 
+                 class="project-card-img card-img-top" alt="World Data App">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">World Data Explorer</h5>
+                <p class="card-text">Flask web app for exploring global economic and development indicators across 240 countries, with search, filtering, and country detail pages.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Flask</span>
+                    <span class="badge bg-secondary">SQLite</span>
+                    <span class="badge bg-secondary">Bootstrap</span>
+                    <span class="badge bg-secondary">Jinja2</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>First time building a full request/response cycle from scratch</li>
+                    <li>Learned how to connect a backend to a database and serve dynamic content</li>
+                    <li>Understood the difference between server-side and client-side rendering</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/World-Data-App" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SQL World Data -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <img src="{{ '/assets/images/sql.png' | relative_url }}" 
+                 class="project-card-img card-img-top" alt="SQL Project">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">SQL World Data Project</h5>
+                <p class="card-text">A relational database of world geographic, economic, and development data across four tables, with 25 queries ranging from basic aggregates to correlated subqueries.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">SQL</span>
+                    <span class="badge bg-secondary">SQLite</span>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Pandas</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>Designed a normalized schema across four related tables</li>
+                    <li>Wrote correlated subqueries to find extremes in specific groups</li>
+                    <li>Built a data cleaning pipeline in Pandas before loading to SQLite</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/SQL-World-Data-Project" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Weather Dashboard -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <img src="{{ '/assets/images/weather.png' | relative_url }}" 
+                 class="project-card-img card-img-top" alt="Weather Dashboard">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">Command-line Python application using the OpenWeatherMap API with current conditions, 5-day forecasts, city comparisons, and air quality reports.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">REST APIs</span>
+                    <span class="badge bg-secondary">JSON</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>First time consuming a real external API and parsing JSON responses</li>
+                    <li>Learned how to handle network errors and missing data gracefully</li>
+                    <li>Built a reusable internal method pattern to avoid duplicating API logic</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/Weather-Dashboard" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Structures -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header text-center py-4 bg-dark text-white">
+                <i class="bi bi-diagram-3 fs-1"></i>
+                <p class="mb-0 mt-2">Data Structures</p>
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Data Structure Implementations</h5>
+                <p class="card-text">From-scratch implementations of a linked list and binary search tree in Python, with full traversal methods and test cases.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Algorithms</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>Implemented recursive BST traversals, and understood why recursion fits tree problems naturally</li>
+                    <li>Built intuition for pointer manipulation and reference-based data structures</li>
+                    <li>Learned Big O analysis by reasoning about each operation's complexity</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/BST-and-Linked-List-Implementations" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CSV Script -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header text-center py-4 bg-dark text-white">
+                <i class="bi bi-filetype-csv fs-1"></i>
+                <p class="mb-0 mt-2">CSV Analysis Tool</p>
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">World Happiness CSV Tool</h5>
+                <p class="card-text">Command-line tool for filtering, sorting, and analyzing world happiness data from a CSV file, with correlation analysis between variables.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Pandas</span>
+                    <span class="badge bg-secondary">CLI</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>First real project using Pandas for data manipulation</li>
+                    <li>Learned how to design a menu-driven CLI interface</li>
+                    <li>Built understanding of virtual environments and project structure</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/Modifying-Happiness-Index-CSV" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Git Practice -->
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header text-center py-4 bg-dark text-white">
+                <i class="bi bi-git fs-1"></i>
+                <p class="mb-0 mt-2">Git Practice</p>
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Git Command Line Basics</h5>
+                <p class="card-text">A practice repository demonstrating branching, merging, rebasing, conflict resolution, and clean commit history using Git from the command line.</p>
+                <div class="d-flex gap-2 mb-3">
+                    <span class="badge bg-secondary">Git</span>
+                    <span class="badge bg-secondary">Command Line</span>
+                </div>
+                <ul class="small text-muted">
+                    <li>Learned the difference between merge and rebase and when to use each</li>
+                    <li>Practiced intentional conflict resolution rather than just avoiding conflicts</li>
+                    <li>Built the commit discipline that carries into each subsequent project</li>
+                </ul>
+                <div class="mt-auto">
+                    <a href="https://github.com/Trisolis/Git-Practice" class="btn btn-sm btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

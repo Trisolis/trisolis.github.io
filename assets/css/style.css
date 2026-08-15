@@ -23,3 +23,8 @@ main {
     background-color: #f8f9fa;
     padding: 2rem;
 }
+
+.project-card-img {
+    height: 250px;
+    object-fit: cover;
+}
